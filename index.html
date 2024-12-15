@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio w Ciemnej Tonacji</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo">Moje Portfolio</div>
+        <ul class="menu">
+            <li><a href="#about">O mnie</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="about" class="dark-section">
+        <div class="container">
+            <h1>O mnie</h1>
+            <div class="content">
+                <img src="profile.jpg" alt="Zdjęcie profilowe" class="profile-img">
+                <p>Cześć! Jestem Jan Kowalski, pasjonat projektowania stron w ciemnych tonacjach. Moje portfolio to dowód na to, jak piękno może iść w parze z funkcjonalnością.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="dark-section">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="projects">
+                <div class="project">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Projekt 1</h3>
+                    <p>Responsywna strona internetowa dla klienta.</p>
+                </div>
+                <div class="project">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Projekt 2</h3>
+                    <p>Unikalny design interfejsu użytkownika.</p>
+                </div>
+                <div class="project">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Projekt 3</h3>
+                    <p>Aplikacja mobilna w stylu dark mode.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="dark-section">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <p>Masz pytania? Skontaktuj się ze mną poprzez poniższy formularz:</p>
+            <form>
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Wyślij</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Jan Kowalski</p>
+        <ul class="socials">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
